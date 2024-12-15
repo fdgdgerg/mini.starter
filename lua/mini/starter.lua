@@ -1501,6 +1501,7 @@ H.apply_buffer_mappings = function(buf_id)
 
 	buf_keymap("<CR>", "MiniStarter.eval_current_item()")
 
+	-- changed default mappings
 	buf_keymap("<Up>", [[MiniStarter.update_current_item('prev')]])
 	buf_keymap("<C-p>", [[MiniStarter.update_current_item('prev')]])
 	buf_keymap("<M-k>", [[MiniStarter.update_current_item('prev')]])
